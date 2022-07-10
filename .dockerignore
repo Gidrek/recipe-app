@@ -5,6 +5,10 @@
 # Docker
 .docker
 
+# Editor
+.idea/
+.vscode/
+
 # Python
 app/__pychache__/
 app/*/__pychache__/

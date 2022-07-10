@@ -17,7 +17,7 @@ RUN python -m venv /py && \
     then /py/bin/pip install -r /tmp/requirements.dev.txt ; \
     fi && \
     rm -rf /tmp && \
-    adduser -D -H django-user
+    adduser -D django-user
 
 ENV PATH="/py/bin:$PATH"
 
